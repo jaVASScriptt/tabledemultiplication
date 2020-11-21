@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>TP4 programmation Web</title>
     <link rel="shortcut icon" type="image/x-icon" href="iconeweb.ico" />
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="tp8-9.css" type="text/css">
 </head>
 <body class="background<?php if (isset($_GET['theme'])){ echo $_GET['theme'];}?>">
 
