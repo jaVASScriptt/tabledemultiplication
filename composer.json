@@ -1,0 +1,7 @@
+{
+    "name": "vassily/vassily",
+    "description": "tabledemultiplication",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {}
+}
