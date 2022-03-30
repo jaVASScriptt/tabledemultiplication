@@ -5,6 +5,7 @@
     <title>TP4 programmation Web</title>
     <link rel="shortcut icon" type="image/x-icon" href="iconeweb.ico" />
     <link rel="stylesheet" href="tp8-9.css" type="text/css">
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 </head>
 <body class="background<?php if (isset($_GET['theme'])){ echo $_GET['theme'];}?>">
 
@@ -19,18 +20,14 @@
     <?php } ?>
 </nav>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4556144084073374"
-     crossorigin="anonymous"></script>
-<!-- Home1 -->
-<ins class="adsbygoogle"
-     style="display:block"
+<amp-ad width="100vw" height="320"
+     type="adsense"
      data-ad-client="ca-pub-4556144084073374"
      data-ad-slot="6912059953"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>    
+     data-auto-format="rspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>    
     
 <br>
 <p>la table de multiplication selectionnée</p>
