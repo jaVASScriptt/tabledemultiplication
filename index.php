@@ -5,7 +5,6 @@
     <title>TP4 programmation Web</title>
     <link rel="shortcut icon" type="image/x-icon" href="iconeweb.ico" />
     <link rel="stylesheet" href="tp8-9.css" type="text/css">
-    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 </head>
 <body class="background<?php if (isset($_GET['theme'])){ echo $_GET['theme'];}?>">
 
@@ -18,16 +17,7 @@
     for ($i = 1 ; $i < 10 ; $i++){?>
     <a href="index.php?chiffre=<?php echo $i; if(isset($_GET['signe'])){ echo "&signe=".$_GET['signe'];}?>&theme=<?php echo $i;?>" class="rad1 lien<?php if (isset($_GET['theme'])){ echo $_GET['theme'];}?>"><div><strong><?php echo $i; ?></strong></div></a>
     <?php } ?>
-</nav>
-
-<amp-ad width="100vw" height="320"
-     type="adsense"
-     data-ad-client="ca-pub-4556144084073374"
-     data-ad-slot="6912059953"
-     data-auto-format="rspv"
-     data-full-width="">
-  <div overflow=""></div>
-</amp-ad>    
+</nav>    
     
 <br>
 <p>la table de multiplication selectionnée</p>
